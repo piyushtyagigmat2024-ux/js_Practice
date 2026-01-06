@@ -1,23 +1,23 @@
 
-const nums = [23,32,54,65,3,54,2];
+const nums = [23,32,54,65,3,2];
 
-function binarysearch(arr, target){
-    let l= 0; 
-    let m = arr.length -1; 
-     while (m >= l){
-        let middle = Math.floor(m+l/2);
-        if(arr[middle] == target){
-                return middle;
+function binarySearch(arr, target){
+    arr.sort((a,b) => a-b); // Ensure the array is sorted
+    let left =0; 
+    let right = arr.right-1;
+    while(left<= right){
+        let mid = Math.floor((left+right)/ 2);
+        if(arr[mid]=== target){
+            return mid; 
         }
-        else if(target < arr[middle]){
-            m = middle-1;
+        else if(arr[mid]> target){
+            left = mid + 1;
         }
         else{
-            l = middle+1;
+            right = mid - 1;
         }
-     }  
-     return -1; 
+    }   
+    return -1;
 }
 
-
-console.log(binarysearch(nums, 24))
+console.log(binarySearch(nums, 54));
