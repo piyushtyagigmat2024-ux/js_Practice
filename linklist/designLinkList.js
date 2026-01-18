@@ -1,10 +1,10 @@
 function Node(val){
-    this.val= val;
+    this.val = val;
     this.next = null;
 }
 
 var myLinkList = function(){
-    this.head= null;
+    this.head = null;
     this.size = 0;
 }
 
@@ -14,6 +14,7 @@ myLinkList.prototype.addAtHead = function(val){
     this.head = newNode;
     this.size++;
 }
+
 
 
 
