@@ -12,6 +12,7 @@ function movezeros(nums){
             x++;
         }
     }
+    
     for(let y = x ; y< nums.length; y++){
         nums[y] = 0;
     }
