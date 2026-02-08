@@ -1,7 +1,4 @@
 let str = "tygsivalueafrfgfdgjdgjfjgjfdjsjserompiyush";
-
-
-
 function getmaxCount(){
 
     let objs = {};
