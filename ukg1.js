@@ -11,4 +11,31 @@ function getmaxvalu(s){
     return s[s.length-1];
 }
 
-console.log(getmaxvalu(arr));
+console.log(getmaxva\\\\ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
